@@ -29,7 +29,7 @@ title = "Vektor Costa Rica"
         # Copy your own image into './static/img/'' if you wish
         image = "vektor-small.jpg"
         name = "Vektor Costa Rica"
-        subtitle = "Capacitaciones - Certificaciones - Validación de requerimientos"
+        subtitle = "Capacitaciones - Certificaciones - Validación de Requerimientos"
 
 
     [params.portfolio]
@@ -87,7 +87,9 @@ title = "Vektor Costa Rica"
 
 
     [params.footer]
-        copyright = "info@vektorcr.com. Tel: 4001-6915 / 7112-9590"
+        copyright = "© TODOS LOS DERECHOS RESERVADOS"
+
+        contactInformation = "info@vektorcr.com. Tel: 4001-6915 / 7112-9590"
 
         [params.footer.location]
             title = "Vektor Costa Rica"
