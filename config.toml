@@ -108,6 +108,6 @@ title = "Vektor Costa Rica"
 
 
         [params.footer.credits]
-            title = "Inscrita en el CFIA"
+            title = ""
             image = "cfiaBlanco1.jpg"
-            text = "#: CC-08948"
+            text = "Inscripción: CC-08948"
