@@ -49,8 +49,9 @@ title = "Vektor Costa Rica"
     [params.about]
         title = "Nosotros"
         # The about text is splitted into a left and right column
-        left = "Visión: Lograr ser líderes en nuestra área para el año 2020, garantizando siempre la calidad y profesionalismo de nuestros servicios."
-        right = "Misión: Nuestra misión es alcanzar su visión."
+        left = "Somos un equipo de trabajo con más de 10 años de experiencia en proyectos y capacitaciones en seguridad, ambiente e higiene ocupacional en el sector industrial, construcción, agropecuario, comercio y dispositivos médicos"
+        right = "Visión: Lograr ser líderes en nuestra área para el año 2020, garantizando siempre la calidad y profesionalismo de nuestros servicios."
+        center = "Misión: Nuestra misión es alcanzar su visión."
 
     [params.services]
         title = "Servicios"
