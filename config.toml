@@ -63,8 +63,9 @@ title = "Vektor Costa Rica"
     
     [params.team]
         title = "Nuestro equipo"
-        left = "Visión: Lograr ser líderes en nuestra área para el año 2020, garantizando siempre la calidad y profesionalismo de nuestros servicios."
-        right = "Misión: Nuestra misión es alcanzar su visión."
+        team1 = ["Ing. Diego Brenes","Gestor de Proyectos","dbrenes@vektorcr.com","Tel: 8859-8335"]
+        team2 = ["Ing. Carlos Brenes","Gestor de Proyectos","cbrenes@vektorcr.com","Tel: 7208-3856"]
+        team3 = ["Katherine Pineda","Oficina Administrativa","kpiedra@vektorcr.com","Tel: 7112-9590"]
     
     [params.contact]
         title = "Contactenos"
