@@ -29,9 +29,9 @@ theme = "hugo-freelancer-theme"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
-        name = "JAPM"
-        subtitle = "Capacitaciones - Certificaciones - Validación Requerimientos"
+        image = "vektor-small.jpg"
+        name = "Vektor Costa Rica"
+        subtitle = "Capacitaciones - Certificaciones - Validación de requerimientos"
 
 
     [params.portfolio]
