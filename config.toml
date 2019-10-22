@@ -15,7 +15,7 @@ title = "Vektor Costa Rica"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "cicelcup@gmail.com"
 
     # Custom assets
 	custom_css = []
@@ -26,17 +26,12 @@ title = "Vektor Costa Rica"
 
 
     [params.header]
-        # Copy your own image into './static/img/'' if you wish
         image = ""
         name = "Vektor Costa Rica"
         subtitle = "Capacitaciones - Certificaciones - Validación de Requerimientos"
 
 
     [params.portfolio]
-        # All projects defined in their own files. You can find example projects
-        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-        # at the root of this Hugo site.
-        # For more informtion take a look at the README.
         title = "Cursos"
 
         [params.portfolio.modal]
@@ -45,7 +40,6 @@ title = "Vektor Costa Rica"
 
     [params.about]
         title = "Nosotros"
-        # The about text is splitted into a left and right column
         left = "Somos un equipo de trabajo con más de 10 años de experiencia en proyectos y capacitaciones en seguridad, ambiente e higiene ocupacional en el sector industrial, construcción, agropecuario, comercio y dispositivos médicos"
         right = "Visión: Lograr ser líderes en nuestra área para el año 2020, garantizando siempre la calidad y profesionalismo de nuestros servicios."
         center = "Misión: Nuestra misión es alcanzar su visión."
@@ -110,8 +104,7 @@ title = "Vektor Costa Rica"
 
         [params.footer.location]
             title = "Vektor Costa Rica"
-            # Postal address (add as many lines as necessary)
-            address = ["Juntos hacía el éxito"]
+            mensaje = ["Juntos hacía el éxito"]
 
         [params.footer.social]
             title = "Redes Sociales"
@@ -124,7 +117,7 @@ title = "Vektor Costa Rica"
                 link=  "https://www.youtube.com/channel/UC0UBddXUX5tuTlFPVsdwPlg"
 
 
-        [params.footer.credits]
+        [params.footer.certification]
             title = ""
             image = "cfiaBlanco1.jpg"
             text = "Inscripción: CC-08948"
