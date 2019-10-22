@@ -22,12 +22,12 @@ title = "Vektor Costa Rica"
 	custom_js  = []
 
     [params.navigation]
-        brand = "Vektor Costa Rica"
+        logo = "vektor-logo-white.jpg"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "vektor-white-40percent.jpg"
+        image = ""
         name = "Vektor Costa Rica"
         subtitle = "Capacitaciones - Certificaciones - Validación de Requerimientos"
 
