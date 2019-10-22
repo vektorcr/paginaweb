@@ -9,36 +9,24 @@
         </div>
     <div class="row">
         <div class="col-lg-3 col-lg-offset-2">
-                {{ with .Site.Params.team.team1}}
-                <p>
-                    {{ range $i, $e := $.Site.Params.team.team1 }}
-                        {{ if $i }}<br>{{ end }}
-                        {{ $e }}
-                    {{ end }}
-                </p>
-            {{ end }}
+            <p class="contact-name">{{ with .Site.Params.team.team1.name }}{{.}}{{ end }}</p>
+            <p class="contact-title">{{ with .Site.Params.team.team1.title }}{{.}}{{ end }}</p>
+            <p class="contact-other">{{ with .Site.Params.team.team1.email }}{{.}}{{ end }}</p>
+            <p class="contact-other">{{ with .Site.Params.team.team1.tel }}{{.}}{{ end }}</p>
         </div>
-            
+     
         <div class="col-lg-3">
-                {{ with .Site.Params.team.team2 }}
-                <p>
-                    {{ range $i, $e := $.Site.Params.team.team2 }}
-                        {{ if $i }}<br>{{ end }}
-                        {{ $e }}
-                    {{ end }}
-                </p>
-            {{ end }}
-        </div>
-
-        <div class="col-lg-3">
-                {{ with .Site.Params.team.team3 }}
-                <p>
-                    {{ range $i, $e := $.Site.Params.team.team3 }}
-                        {{ if $i }}<br>{{ end }}
-                        {{ $e }}
-                    {{ end }}
-                </p>
-            {{ end }}
+                <p class="contact-name">{{ with .Site.Params.team.team2.name }}{{.}}{{ end }}</p>
+                <p class="contact-title">{{ with .Site.Params.team.team2.title }}{{.}}{{ end }}</p>
+                <p class="contact-other">{{ with .Site.Params.team.team2.email }}{{.}}{{ end }}</p>
+                <p class="contact-other">{{ with .Site.Params.team.team2.tel }}{{.}}{{ end }}</p>
+            </div>
+    
+          <div class="col-lg-3">
+            <p class="contact-name">{{ with .Site.Params.team.team3.name }}{{.}}{{ end }}</p>
+            <p class="contact-title">{{ with .Site.Params.team.team3.title }}{{.}}{{ end }}</p>
+            <p class="contact-other">{{ with .Site.Params.team.team3.email }}{{.}}{{ end }}</p>
+            <p class="contact-other">{{ with .Site.Params.team.team3.tel }}{{.}}{{ end }}</p>
         </div>
 
     </div>

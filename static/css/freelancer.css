@@ -12,6 +12,22 @@ p {
     font-size: 20px;
 }
 
+.contact-name {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.contact-title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contact-other {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
 p.small {
     font-size: 16px;
 }
