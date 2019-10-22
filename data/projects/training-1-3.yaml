@@ -1,8 +1,6 @@
 modalID: 3
 title: Izaje de cargas
-date: 2014-07-13
 img: lifting.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Prueba
+file: Descargar en PDF
+fileLink: "prueba.txt"
+description: Descripción breve del curso

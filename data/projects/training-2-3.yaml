@@ -1,8 +1,6 @@
 modalID: 6
 title: Manejo de sustancias quimicas
-date: 2014-07-13
 img: chemist.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Prueba
+file: Descargar en PDF
+fileLink: "prueba.txt"
+description: Descripción breve del curso

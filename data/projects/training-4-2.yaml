@@ -1,8 +1,6 @@
 modalID: 11
 title: Riesgo en maquinaria
-date: 2014-07-13
 img: RiskMachine.jpg
-client: Start Bootstrap
-clientLink: "#"
-category: Web Development
-description: Prueba
+file: Descargar en PDF
+fileLink: "prueba.txt"
+description: Descripción breve del curso

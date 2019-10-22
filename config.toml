@@ -40,11 +40,8 @@ title = "Vektor Costa Rica"
         title = "Cursos"
 
         [params.portfolio.modal]
-            client = "Cliente"
-            date = "Fecha"
-            category = "Categoria"
-            buttontext = "Cerrar"
-
+            informacion = "Contenido del curso"
+            buttontext = "Volver"
 
     [params.about]
         title = "Nosotros"
@@ -57,7 +54,7 @@ title = "Vektor Costa Rica"
         title = "Servicios"
         A1 = "Vektor ha desarrollado un sistema de capacitación y entrenamiento personalizado por empresa; en el cual nuestro personal investiga, adopta y confecciona capacitaciones basadas en sus políticas internas de EHS, calidad e inocuidad del producto. Esto con la finalidad de que sus empresas subcontratistas sigan los lineamientos de seguridad."
         B1 = "Los conocimientos adquiridos son respaldados con un amplio material visual, auditivo y bibliográfico que permite al participante profundizar en el conocimiento."
-        B2 = "Somos el filtro en cuanto documentación legal (INS, CCSS) que su empresa debe solicitar a los subcontratistas."        
+        B2 = "Somos el filtro en cuanto a documentación legal (INS, CCSS) que su empresa debe solicitar a los subcontratistas."        
         B3 = "Se proporciona al participante un plan de acciones seguras diseñado durante la capacitación, que pondrá en práctica de manera inmediata en su área de trabajo."
         B4 = "Formamos personas competentes en las tareas criticas aplicables a su empresa."
     
