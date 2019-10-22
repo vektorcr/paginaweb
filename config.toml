@@ -27,7 +27,7 @@ title = "Vektor Costa Rica"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
+        image = "vektor-white-40percent.jpg"
         name = "Vektor Costa Rica"
         subtitle = "Capacitaciones - Certificaciones - Validación de Requerimientos"
 
