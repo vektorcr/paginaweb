@@ -8,15 +8,31 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-lg-offset-2">
-                <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
+            <div class="col-lg-8 col-lg-offset-2">
+                <p>{{ with .Site.Params.services.A1 }}{{ . | markdownify }}{{ end }}</p>
             </div>
-            <div class="col-lg-3">
-                <p>{{ with .Site.Params.about.center }}{{ . | markdownify }}{{ end }}</p>
+        </div> 
+
+        <div class="row">
+                <div class="col-lg-12">
+                    <br/>
+                </div>
             </div>
-            <div class="col-lg-3">
-                <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-        </div>          
+
+        <div class="row">
+                <div class="col-lg-2 col-lg-offset-2">
+                    <p>{{ with .Site.Params.services.B1 }}{{ . | markdownify }}{{ end }}</p>
+                </div>
+                <div class="col-lg-2">
+                    <p>{{ with .Site.Params.services.B2 }}{{ . | markdownify }}{{ end }}</p>
+                </div>
+                <div class="col-lg-2">
+                    <p>{{ with .Site.Params.services.B3 }}{{ . | markdownify }}{{ end }}</p>
+                </div>
+                <div class="col-lg-2">
+                        <p>{{ with .Site.Params.services.B4 }}{{ . | markdownify }}{{ end }}</p>
+                    </div>
+            </div> 
+         
     </div>
 </section>
