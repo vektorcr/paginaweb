@@ -27,7 +27,7 @@ title = "Vektor Costa Rica"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "vektor-small.jpg"
+        image = "profile.png"
         name = "Vektor Costa Rica"
         subtitle = "Capacitaciones - Certificaciones - Validación de Requerimientos"
 
@@ -109,4 +109,5 @@ title = "Vektor Costa Rica"
 
         [params.footer.credits]
             title = "Inscrita en el CFIA"
+            image = "cfiaBlanco1.jpg"
             text = "#: CC-08948"

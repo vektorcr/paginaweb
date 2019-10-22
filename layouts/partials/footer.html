@@ -26,6 +26,7 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
+                    <img class="img-responsive" src="img/{{ with .Site.Params.footer.credits.image }}{{ . }}{{ else }}cfiaBlanco1.jpg{{ end }}" alt="">
                     <h3>{{ with .Site.Params.footer.credits.title }}{{.}}{{ end }}</h3>
                     <p>{{ with .Site.Params.footer.credits.text }}{{ . | markdownify }}{{ end }}</p>
                 </div>
