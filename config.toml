@@ -54,7 +54,14 @@ title = "Vektor Costa Rica"
 
     [params.services]
         title = "Servicios"
+        left = "Visión: Lograr ser líderes en nuestra área para el año 2020, garantizando siempre la calidad y profesionalismo de nuestros servicios."
+        right = "Misión: Nuestra misión es alcanzar su visión."
 
+    [params.team]
+        title = "Nuestro equipo"
+        left = "Visión: Lograr ser líderes en nuestra área para el año 2020, garantizando siempre la calidad y profesionalismo de nuestros servicios."
+        right = "Misión: Nuestra misión es alcanzar su visión."
+    
     [params.contact]
         title = "Contactenos"
 
