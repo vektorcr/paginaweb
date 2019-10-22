@@ -7,13 +7,10 @@
                 <hr class="star-primary">
             </div>
         </div>
-    <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-            <div class="col-lg-4">
-                <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
-            </div>
+        <div class="row">
+                <div class="col-lg-3 col-lg-offset-2"><p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p></div>
+                <div class="col-lg-3"><p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p></div>
+                <div class="col-lg-3"><p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p></div>
+              </div>          
         </div>
-    </div>
 </section>
