@@ -10,7 +10,7 @@
     --second-color:#2c3e50;
     --third-color:#233140;
     --fourth-color:#fff;
-    --fifth-color:#eee;
+    --fourth-color-hover:#eee;
 }
 
 body {
@@ -44,6 +44,7 @@ p {
 
 .btn-success:hover{
     background-color:var(--first-color-hover);
+    color: var(--fourth-color-hover);
 }
 
 
@@ -317,7 +318,7 @@ section.success a.active {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid var(--fifth-color);
+    border-bottom: 1px solid var(--fourth-color-hover);
 }
 
 .floating-label-form-group input,
@@ -353,7 +354,7 @@ section.success a.active {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid var(--fifth-color);
+    border-left: 1px solid var(--fourth-color-hover);
 }
 
 .floating-label-form-group-with-value label {
@@ -366,7 +367,7 @@ section.success a.active {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid var(--fifth-color);
+    border-top: 1px solid var(--fourth-color-hover);
 }
 
 footer {
