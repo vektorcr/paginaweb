@@ -3,21 +3,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>{{ with .Site.Params.about.title }}{{.}}{{ end }}</h2>
+                <h2 class="secondary-color-letter">{{ with .Site.Params.about.title }}{{.}}{{ end }}</h2>
                 <hr class="star-primary">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3 col-lg-offset-2">
-                <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
+                <p class="secondary-color-letter">{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
                 <p.small><br/></p.small>
             </div>
             <div class="col-lg-3">
-                <p>{{ with .Site.Params.about.center }}{{ . | markdownify }}{{ end }}</p>
+                <p class="secondary-color-letter">{{ with .Site.Params.about.center }}{{ . | markdownify }}{{ end }}</p>
                 <p.small><br/></p.small>
             </div>
             <div class="col-lg-3">
-                <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
+                <p class="secondary-color-letter">{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
                 <p.small><br/></p.small>
             </div>        
         </div>
