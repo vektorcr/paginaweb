@@ -11,6 +11,7 @@
     --third-color:#233140;
     --fourth-color:#fff;
     --fourth-color-hover:#eee;
+    --fifth-color-hover:#1a242f;
 }
 
 body {
@@ -204,6 +205,22 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background:var(--second-color);
+}
+
+.navbar .navbar-nav li a {
+    color: var(--fourth-color);
+}
+
+.navbar .navbar-nav li a:hover {
+    color: var(--first-color-hover);
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+    background-color: var(--fifth-color-hover);
+    color:var(--fourth-color);
 }
 
 section {
