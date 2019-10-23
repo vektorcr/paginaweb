@@ -21,7 +21,7 @@ title = "Vektor Costa Rica"
 	custom_js  = []
 
     [params.navigation]
-        logo = "vektor-logo-white.jpg"
+        logo = "vektor-logo-black.jpg"
 
 
     [params.header]

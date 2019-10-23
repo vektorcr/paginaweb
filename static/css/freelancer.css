@@ -4,16 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 :root{
-    --first-color:#18bc9c;
-    --first-color-tr:rgba(24,188,156,.9);
-    --first-color-hover:#128f76;
-    --second-color:#2c3e50;
-    --second-color-tr:rgba(44,62,80,.5);
-    --second-color-hover:#233140;
-    --second-color-hover-B:#1a242f;
+    --first-color:#2c2c2c; /*listo*/
+    --first-color-tr:rgba(190,2,17,.9); /*listo*/
+    --first-color-hover:#be0211; /*listo*/
+    --second-color:black; /*listo*/
+    --second-color-tr:rgba(0,0,0,.5); /*listo*/
+    --second-color-hover:#2c2c2c; /*listo*/
+    --second-color-hover-B:#2c2c2c; 
     --fourth-color:#fff;
     --fourth-color-hover:#eee;
-    --second-color-hover-B:#1a242f;
+    --fifth-color:#f6e000;
 }
 
 body {
@@ -26,6 +26,10 @@ p {
 
 .secondary-color-letter{
     color:var(--second-color);
+}
+
+.secondary-color-paragraph{
+    color:var(--fourth-color);
 }
 
 .contact-name {
@@ -65,7 +69,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: var(--first-color);
+    color: var(--first-color-hover);
 }
 
 h1,
@@ -101,7 +105,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: var(--fourth-color);
+    border-color: var(--fifth-color);
 }
 
 hr.star-light:after {
@@ -110,7 +114,7 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: var(--second-color);
+    border-color: var(--first-color-hover);
 }
 
 hr.star-primary:after {
@@ -144,6 +148,7 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color: var(--first-color-hover);
 }
 
 header .intro-text .skills {
@@ -250,6 +255,10 @@ section {
 section.success {
     color: var(--fourth-color);
     background: var(--first-color);
+}
+
+.section-orange {
+    color: var(--first-color-hover);
 }
 
 section.success a,
