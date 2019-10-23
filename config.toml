@@ -86,7 +86,7 @@ title = "Vektor Costa Rica"
 
         [params.contact.form.phone]
             text = "Teléfono"
-            error = "Por favor introduzca su número teléfonico"
+            error = "Por favor introduzca su número teléfonico con el formato XXXX-XXXX"
 
         [params.contact.form.message]
             text = "Mensaje"
