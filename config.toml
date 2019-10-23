@@ -97,9 +97,10 @@ title = "Vektor Costa Rica"
 
 
     [params.footer]
-        copyright = "© TODOS LOS DERECHOS RESERVADOS"
+        copyright = "© Todos los derechos reservados"
 
-        contactInformation = "info@vektorcr.com. Tel: 4001-6915 / 7112-9590"
+        contactemail = "info@vektorcr.com"
+        contactphone = "Tel: 4001-6915 / 7112-9590"
 
         [params.footer.location]
             title = "Vektor Costa Rica"

@@ -37,8 +37,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    {{ with .Site.Params.footer.contactInformation }}{{ . | markdownify }}{{ end }}
+                    {{ with .Site.Params.footer.contactemail }}{{ . | markdownify }}{{ end }}
                 </div>
+                <div class="col-lg-12">
+                        {{ with .Site.Params.footer.contactphone }}{{ . | markdownify }}{{ end }}
+                    </div>
                 <div class="col-lg-12">
                         {{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}
                     </div>
