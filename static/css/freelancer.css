@@ -23,6 +23,10 @@ p {
     font-size: 20px;
 }
 
+.secondary-color-letter{
+    color:var(--second-color);
+}
+
 .contact-name {
     font-size: 26px;
     font-weight: bold;
