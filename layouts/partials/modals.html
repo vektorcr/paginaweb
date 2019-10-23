@@ -12,16 +12,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ .title }}</h2>
+                        <h2 class="secondary-color-letter">{{ .title }}</h2>
                         <hr class="star-primary">
                         <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
-                        <p>{{ .description | markdownify }}</p>
+                        <p class="secondary-color-letter">{{ .description | markdownify }}</p>
                         <ul class="list-inline item-details">
-                            <li>{{ with $.Site.Params.portfolio.modal.informacion }}{{.}}{{ end }}:
+                            <li class="secondary-color-letter">{{ with $.Site.Params.portfolio.modal.informacion }}{{.}}{{ end }}:
                                 <strong><a href="pdf/{{ .fileLink }}">{{ .file }}</a></strong>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">{{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
+                        <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">{{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
                     </div>
                 </div>
             </div>
