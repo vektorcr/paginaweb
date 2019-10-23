@@ -73,7 +73,7 @@ title = "Vektor Costa Rica"
             tel = "Tel: 7112-9590 / 4001-6915"    
     
     [params.contact]
-        title = "Contactenos"
+        title = "Contacto"
 
         # 'error' defines error messages for invalid inputs
         [params.contact.form.name]
@@ -97,7 +97,7 @@ title = "Vektor Costa Rica"
 
 
     [params.footer]
-        copyright = "© Todos los derechos reservados"
+        copyright = "©Todos los derechos reservados"
 
         contactemail = "info@vektorcr.com"
         contactphone = "Tel: 4001-6915 / 7112-9590"
