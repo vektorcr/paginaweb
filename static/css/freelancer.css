@@ -216,6 +216,10 @@ header .intro-text .skills {
     color: var(--first-color-hover);
 }
 
+.navbar .navbar-nav li a:focus {
+    color: var(--fourth-color);
+}
+
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus{
