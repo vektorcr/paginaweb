@@ -8,6 +8,7 @@
     --first-color-tr:rgba(24,188,156,.9);
     --first-color-hover:#128f76;
     --second-color:#2c3e50;
+    --second-color-tr:rgba(44,62,80,.5);
     --second-color-hover:#233140;
     --second-color-hover-B:#1a242f;
     --fourth-color:#fff;
@@ -340,6 +341,14 @@ section.success a.active {
     background: var(--fourth-color);
 }
 
+input::-webkit-input-placeholder {
+    color: var(--second-color-tr) !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: var(--second-color-tr) !important;
+}
+
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -359,6 +368,7 @@ section.success a.active {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+    color:var(--second-color);
 }
 
 .floating-label-form-group label {
@@ -369,6 +379,7 @@ section.success a.active {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
+    color:var(--first-color);
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
