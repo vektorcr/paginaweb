@@ -151,6 +151,11 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+section h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -163,6 +168,11 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+
+    section h2 {
+        margin: 0;
+        font-size: 3em;
     }
 }
 
@@ -235,11 +245,6 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
-}
-
-section h2 {
-    margin: 0;
-    font-size: 3em;
 }
 
 section.success {
