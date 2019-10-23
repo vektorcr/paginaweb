@@ -6,6 +6,7 @@
 :root{
     --first-color:#18bc9c;
     --first-color-tr:rgba(24,188,156,.9);
+    --first-color-hover:#128f76;
     --second-color:#2c3e50;
     --third-color:#233140;
     --fourth-color:#fff;
@@ -33,6 +34,16 @@ p {
 .contact-other {
     font-size: 18px;
     font-style: italic;
+}
+
+.btn-success{
+    color:var(--fourth-color);
+    background-color:var(--first-color);
+    border-color:var(--first-color-hover);
+}
+
+.btn-success:hover{
+    background-color:var(--first-color-hover);
 }
 
 
