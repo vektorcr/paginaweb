@@ -1,6 +1,6 @@
 modalID: 4
 title: Capacitacion en salud ocupacional
 img: health.jpg
-file: Descargar en PDF
-fileLink: "prueba.txt"
-description: Descripción breve del curso
+file:
+fileLink:
+description: Formamos personas competentes en las tareas criticas aplicables a su empresa.

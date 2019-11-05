@@ -56,18 +56,18 @@ title = "Vektor Costa Rica"
 
         [params.team.team1]
             name = "Ing. Diego Brenes"
-            title = "Gestor de Proyecto"
+            title = "Gestor de Proyectos"
             email = "dbrenes@vektorcr.com"
             tel = "Tel: 8859-8335"
 
         [params.team.team2]
             name = "Ing. Carlos Brenes"
-            title = "Gestor de Proyecto"
+            title = "Gestor de Proyectos"
             email = "cbrenes@vektorcr.com"
             tel = "Tel: 7208-3856"
 
         [params.team.team3]
-            name = "Katherine Pineda"
+            name = "Katherine Piedra"
             title = "Oficina administrativa"
             email = "kpiedra@vektorcr.com"
             tel = "Tel: 7112-9590 / 4001-6915"    
@@ -99,7 +99,7 @@ title = "Vektor Costa Rica"
     [params.footer]
         copyright = "©Todos los derechos reservados"
 
-        contactemail = "info@vektorcr.com"
+        contactemail = "kpiedra@vektorcr.com"
         contactphone = "Tel: 4001-6915 / 7112-9590"
 
         [params.footer.location]
