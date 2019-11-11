@@ -58,19 +58,19 @@ title = "Vektor Costa Rica"
             name = "Ing. Diego Brenes"
             title = "Gestor de Proyectos"
             email = "dbrenes@vektorcr.com"
-            tel = "Tel: 8859-8335"
+            tel = "8859-8335"
 
         [params.team.team2]
             name = "Ing. Carlos Brenes"
             title = "Gestor de Proyectos"
             email = "cbrenes@vektorcr.com"
-            tel = "Tel: 7208-3856"
+            tel = "7208-3856"
 
         [params.team.team3]
             name = "Katherine Piedra"
-            title = "Oficina administrativa"
+            title = "Oficina Administrativa"
             email = "kpiedra@vektorcr.com"
-            tel = "Tel: 7112-9590 / 4001-6915"    
+            tel = "7112-9590"    
     
     [params.contact]
         title = "Contacto"

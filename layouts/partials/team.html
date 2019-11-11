@@ -11,24 +11,48 @@
         <div class="col-lg-3 col-lg-offset-2">
             <p class="contact-name">{{ with .Site.Params.team.team1.name }}{{.}}{{ end }}</p>
             <p class="contact-title">{{ with .Site.Params.team.team1.title }}{{.}}{{ end }}</p>
-            <p class="contact-other">{{ with .Site.Params.team.team1.email }}{{.}}{{ end }}</p>
-            <p class="contact-other">{{ with .Site.Params.team.team1.tel }}{{.}}{{ end }}</p>
+            <p class="contact-other">
+                <a href="mailto:{{ with .Site.Params.team.team1.email }}{{.}}{{ end }}">
+                    {{ with .Site.Params.team.team1.email }}{{.}}{{ end }}
+                </a>   
+            </p>
+            <p class="contact-other">
+                <a href="tel:{{ with .Site.Params.team.team1.tel }}{{.}}{{ end }}">
+                    Tel: {{ with .Site.Params.team.team1.tel }}{{.}}{{ end }}
+                </a>   
+            </p>
             <p.small><br/></p.small>
         </div>
      
         <div class="col-lg-3">
                 <p class="contact-name">{{ with .Site.Params.team.team2.name }}{{.}}{{ end }}</p>
                 <p class="contact-title">{{ with .Site.Params.team.team2.title }}{{.}}{{ end }}</p>
-                <p class="contact-other">{{ with .Site.Params.team.team2.email }}{{.}}{{ end }}</p>
-                <p class="contact-other">{{ with .Site.Params.team.team2.tel }}{{.}}{{ end }}</p>
+                <p class="contact-other">
+                    <a href="mailto:{{ with .Site.Params.team.team2.email }}{{.}}{{ end }}">
+                        {{ with .Site.Params.team.team2.email }}{{.}}{{ end }}
+                    </a> 
+                </p>
+                <p class="contact-other">
+                    <a href="tel:{{ with .Site.Params.team.team2.tel }}{{.}}{{ end }}">
+                        Tel: {{ with .Site.Params.team.team2.tel }}{{.}}{{ end }}
+                    </a>   
+                </p>
                 <p.small><br/></p.small>
             </div>
     
           <div class="col-lg-3">
             <p class="contact-name">{{ with .Site.Params.team.team3.name }}{{.}}{{ end }}</p>
             <p class="contact-title">{{ with .Site.Params.team.team3.title }}{{.}}{{ end }}</p>
-            <p class="contact-other">{{ with .Site.Params.team.team3.email }}{{.}}{{ end }}</p>
-            <p class="contact-other">{{ with .Site.Params.team.team3.tel }}{{.}}{{ end }}</p>
+            <p class="contact-other">
+                <a href="mailto:{{ with .Site.Params.team.team3.email }}{{.}}{{ end }}">
+                    {{ with .Site.Params.team.team3.email }}{{.}}{{ end }}
+                </a> 
+            </p>
+            <p class="contact-other">
+                <a href="tel:{{ with .Site.Params.team.team3.tel }}{{.}}{{ end }}">
+                    Tel: {{ with .Site.Params.team.team3.tel }}{{.}}{{ end }}
+                </a>   
+            </p>
             <p.small><br/></p.small>
         </div>
 

@@ -267,7 +267,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: var(--second-color);
+    color: var(--fourth-color);
 }
 
 @media(max-width:767px) {
