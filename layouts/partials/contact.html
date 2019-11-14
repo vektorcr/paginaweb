@@ -9,32 +9,34 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>{{ with .Site.Params.contact.form.name.text }}{{.}}{{ end }}</label>
-                            <input type="text" name="name" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{.}}{{ end }}" id="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.error }}{{.}}{{ end }}">
-                            <p class="help-block text-danger"></p>
+                <form  id="contactForm" name="complaint-form" accept-charset="utf-8" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" novalidate>
+                    <fieldset id="fs-frm-inputs"></fieldset>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="full-name">{{ with .Site.Params.contact.form.name.text }}{{.}}{{ end }}</label>
+                                <input type="text" name="name" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{.}}{{ end }}" id="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.error }}{{.}}{{ end }}">
+                                <p class="help-block text-danger"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>{{ with .Site.Params.contact.form.email.text }}{{.}}{{ end }}</label>
-                            <input type="email" name="_replyto" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{.}}{{ end }}" id="email" required data-validation-required-message="{{ with .Site.Params.contact.form.email.error }}{{.}}{{ end }}" data-validation-validemail-message="{{ with .Site.Params.contact.form.email.error }}{{.}}{{ end }}">
-                            <p class="help-block text-danger"></p>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="email-address">{{ with .Site.Params.contact.form.email.text }}{{.}}{{ end }}</label>
+                                <input type="email" name="_replyto" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{.}}{{ end }}" id="email" required data-validation-required-message="{{ with .Site.Params.contact.form.email.error }}{{.}}{{ end }}" data-validation-validemail-message="{{ with .Site.Params.contact.form.email.error }}{{.}}{{ end }}">
+                                <p class="help-block text-danger"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}</label>
-                            <input type="pattern" pattern="(\d{4}[\-]\d{4})|(\d{3}[\-]\d{4}[\-]\d{4})" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}" id="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.error }}{{.}}{{ end }}" data-validation-pattern-message="{{ with .Site.Params.contact.form.phone.error }}{{.}}{{ end }}">
-                            <p class="help-block text-danger"></p>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="telephone">{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}</label>
+                                <input type="pattern" pattern="(\d{4}[\-]\d{4})|(\d{3}[\-]\d{4}[\-]\d{4})" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{.}}{{ end }}" id="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.error }}{{.}}{{ end }}" data-validation-pattern-message="{{ with .Site.Params.contact.form.phone.error }}{{.}}{{ end }}">
+                                <p class="help-block text-danger"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <input type="hidden"  name="_subject" value="New submission!">
-                        <input type="text" name="_gotcha" style="display:none" />
-                    </div>
+                        <div>
+                            <input type="hidden"  name="_subject" value="New submission!">
+                            <input type="text" name="_gotcha" style="display:none" />
+                        </div>
+                    </fieldset>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>{{ with .Site.Params.contact.form.message.text }}{{.}}{{ end }}</label>
