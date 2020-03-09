@@ -94,7 +94,9 @@ title = "Vektor Costa Rica"
 
         [params.contact.form.button]
             text = "Enviar"
-
+    
+    [params.login]
+        title = "Entrar Exámenes"
 
     [params.footer]
         copyright = "©Todos los derechos reservados"
